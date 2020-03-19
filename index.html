@@ -10,21 +10,55 @@
 </head>
 <body>
 
-  Learn to code by watching others
+  <header class="header">
+    <h1 class="header__heading">Learn to code by watching others</h1>
+  
+    <p class="header__paragraph">
+      See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable. 
+    </p>
+  </header>
 
-  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-  but understanding how developers think is invaluable. 
+  <article class="try_it">
+    <h2 class="try_it__heading"><span class="try_it__heading--bold">Try it free 7 days</span> then 
+      <span class="try_it__heading--new_line">\$20/mo. thereafter</span></h2>
+  </article>
 
-  Try it free 7 days then $20/mo. thereafter
+  <form action="" class="form">
+    <ul class="form__list">
+        <li class="form__list__item">
+            <input type="text" name="name" placeholder="Name" class="form__list__item__input ">
+            <p class="form__list__item__input__error_text">First Name cannot be empty</p>
+            <img src="./svg/icon-error.svg" alt="error_icon" class="form__list__item__input__error_icon">
+        </li>
 
-  First Name 
-  Last Name 
-  Email Address
-  Password
+        <li class="form__list__item">
+            <input type="text" name="last_name" placeholder="Last Name" class="form__list__item__input">
+            <p class="form__list__item__input__error_text">Last Name cannot be empty</p>
+            <img src="./svg/icon-error.svg" alt="error_icon" class="form__list__item__input__error_icon">
+        </li>
 
-  Claim your free trial 
+        <li class="form__list__item">
+            <input type="email" name="name" placeholder="Email Address" class="form__list__item__input">
+            <p class="form__list__item__input__error_text">Email cannot be empty</p>
+            <p class="form__list__item__input__error_text_email">Looks like this is not an email</p>
+            <img src="./svg/icon-error.svg" alt="error_icon" class="form__list__item__input__error_icon">
+        </li>
 
-  By clicking the button, you are agreeing to our Terms and Services
+        <li class="form__list__item">
+            <input type="password" name="name" placeholder="Password" class="form__list__item__input">
+            <p class="form__list__item__input__error_text">Password cannot be empty</p>
+            <img src="./svg/icon-error.svg" alt="error_icon" class="form__list__item__input__error_icon">
+        </li>
+
+        <li class="form__list__item">
+            <button class="form__list__item__button">claim your free trial</button>
+        </li>
+
+        <li class="form__list__item">
+            <p class="form__list__item__paragraph">By clicking this button you are agreeing to our <a href="#">Terms and Services</a>
+    </ul>
+</form>
   
   <footer class="footer">
     <p class="footer__paragraph">
