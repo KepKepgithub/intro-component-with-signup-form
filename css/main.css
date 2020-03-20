@@ -255,8 +255,8 @@ body {
 @media only screen and (min-width: 300px) {
   .footer {
     text-align: center;
-    font-size: .7rem;
-    padding: 0 6em;
+    font-size: .8rem;
+    padding: 0 5em;
   }
   .footer__link {
     text-decoration: none;
