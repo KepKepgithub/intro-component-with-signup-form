@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: $red;
+    color: white;
+}
+
+
+@media only screen and (min-width:300px){
+    .page_wrap{
+        max-width: 375px;
+        width: 100%;
+        height: 1000px;
+        margin: auto;
+        padding: 0 1.5em;
+        background-image: url(../backgrounds/bg-intro-mobile.png);
+    }
+}
+
+@media only screen and (min-width:1024px){
+
+    .page_wrap{
+        max-width: 1440px;
+        width: 100%;
+        height: 800px;
+        margin:auto;
+        background-image: url(../backgrounds/bg-intro-desktop.png);
+    }
+}
