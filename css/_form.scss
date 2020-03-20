@@ -50,6 +50,7 @@
             font-size: 1em;
             letter-spacing: .1em;
             // the active is for mobile to have some visual responsivnes
+            cursor: pointer;
             &:hover, &:active{
                 opacity: 0.7;
             }
@@ -71,7 +72,7 @@
             position: absolute;
             color: $red;
             z-index: 100;
-            top: 50px;
+            top: 60px;
             right: 0;
             font-style: italic;
             font-size: .8rem;
@@ -87,7 +88,31 @@
 }
 
 
+@media only screen and (min-width:1024px){
+    .form{
+        width: 80%;
+        max-height: 550px;
+        padding: 2.5em;
+        &__list{
+            height: 100%;
+        }
+        &__input{
+            height: 55px;
+            margin-bottom: 40px;
+        }
+        &__paragraph{
+            font-size: .75rem;
+        }
+        &__error_text, &__error_text_email{
+            top: 60px;
+            right: 0;
+
+        }
+    }
+}
+
+
 .input_error{
     border-color: $red;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
 }

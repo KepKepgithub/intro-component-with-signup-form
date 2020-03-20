@@ -1,0 +1,23 @@
+@media only screen and (min-width:1024px){
+    .page_wrap{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto 50px;
+        grid-template-areas: 
+        ". article"
+        "header form"
+        "footer footer";
+    }
+    .article{
+        grid-area:article;
+    }
+    .header{
+        grid-area: header;
+    }
+    .form{
+        grid-area: form;
+    }
+    .footer{
+        grid-area: footer;
+    }
+}

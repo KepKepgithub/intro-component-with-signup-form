@@ -16,3 +16,15 @@
         }
     }
 }
+
+
+@media only screen and (min-width:1024px){
+    .article{
+        width: 80%;
+        height: 60px;
+        align-self: end;
+        padding: 0;
+        display: grid;
+        place-items: center center;
+    }
+}
