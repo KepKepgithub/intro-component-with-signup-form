@@ -28,7 +28,7 @@
     <form action="" class="form">
       <ul class="form__list">
           <li class="form__item">
-              <input type="text" name="name" placeholder="Name" class="form__input ">
+              <input type="text" name="name" placeholder="Name" class="form__input">
               <p class="form__error_text">First Name cannot be empty</p>
               <img src="./svg/icon-error.svg" alt="error_icon" class="form__error_icon">
           </li>
@@ -40,7 +40,7 @@
           </li>
   
           <li class="form__item">
-              <input type="email" name="name" placeholder="Email Address" class="form__input">
+              <input type="email" name="name" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email Address" class="form__input">
               <p class="form__error_text">Email cannot be empty</p>
               <p class="form__error_text_email">Looks like this is not an email</p>
               <img src="./svg/icon-error.svg" alt="error_icon" class="form__error_icon">
@@ -68,5 +68,6 @@
       </p>
     </footer>
   </div>
+  <script src="./js/input_vertification.js"></script>
 </body>
 </html>
